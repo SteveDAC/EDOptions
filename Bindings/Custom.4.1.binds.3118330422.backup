@@ -1535,7 +1535,7 @@
 	</HumanoidSprintButton>
 	<HumanoidWalkButton>
 		<Primary Device="Keyboard" Key="Key_Slash" />
-		<Secondary Device="Mouse" Key="Mouse_5" />
+		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</HumanoidWalkButton>
 	<HumanoidCrouchButton>
