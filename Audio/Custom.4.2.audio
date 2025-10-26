@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Root PresetName="Custom" MajorVersion="4" MinorVersion="0">
-	<SoundEffectsVolume Value="77.41572571" Muted="0" />
-	<MusicVolume Value="0.00000000" Muted="0" />
+<Root PresetName="Custom" MajorVersion="4" MinorVersion="2">
+	<SoundEffectsVolume Value="60.30898666" Muted="0" />
+	<MusicVolume Value="100.00000000" Muted="0" />
 	<WaveScannerVolume Value="75.00000000" Muted="0" />
 	<ShipVoiceVolume Value="75.00000000" Muted="0" />
 	<SuitVoiceVolume Value="75.00000000" Muted="0" />
@@ -147,8 +147,8 @@
 	<SuitVoiceMyVesselDestroyedEnabled Enabled="1" />
 	<DynamicRange Type="Default" />
 	<StreamerMode Type="NotStreaming" />
-	<hp3d_override Type="1" />
-	<hp3d Type="Enabled" />
+	<hp3d_override Type="0" />
+	<hp3d Type="Disabled" />
 	<CallSign Type="CMDR_Name" />
 	<GalnetAudioLanguage Type="0" />
 </Root>

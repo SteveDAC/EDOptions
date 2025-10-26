@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Root PresetName="Custom" MajorVersion="4" MinorVersion="0">
-	<SoundEffectsVolume Value="77.41572571" Muted="0" />
-	<MusicVolume Value="0.00000000" Muted="0" />
+<Root PresetName="Custom" MajorVersion="4" MinorVersion="1">
+	<SoundEffectsVolume Value="100.00000000" Muted="0" />
+	<MusicVolume Value="82.80899048" Muted="0" />
 	<WaveScannerVolume Value="75.00000000" Muted="0" />
 	<ShipVoiceVolume Value="75.00000000" Muted="0" />
 	<SuitVoiceVolume Value="75.00000000" Muted="0" />

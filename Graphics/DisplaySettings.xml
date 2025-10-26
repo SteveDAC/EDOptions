@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <DisplayConfig>
-	<ScreenWidth>2560</ScreenWidth>
-	<ScreenHeight>1440</ScreenHeight>
+	<ScreenWidth>1920</ScreenWidth>
+	<ScreenHeight>1080</ScreenHeight>
 	<VSync>true</VSync>
 	<FullScreen>1</FullScreen>
 	<PresentInterval>1</PresentInterval>

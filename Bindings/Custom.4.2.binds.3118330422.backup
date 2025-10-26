@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Root PresetName="Custom" MajorVersion="4" MinorVersion="1">
+<Root PresetName="Custom" MajorVersion="4" MinorVersion="2">
 	<KeyboardLayout>en-US</KeyboardLayout>
 	<MouseXMode Value="Bindings_MouseYaw" />
 	<MouseXDecay Value="0" />
@@ -347,13 +347,13 @@
 	<CycleNextSubsystem>
 		<Primary Device="Keyboard" Key="Key_Y" />
 		<Secondary Device="Mouse" Key="Pos_Mouse_ZAxis">
-			<Modifier Device="Keyboard" Key="Key_RightControl" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Secondary>
 	</CycleNextSubsystem>
 	<CyclePreviousSubsystem>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_6" />
 		<Secondary Device="Mouse" Key="Neg_Mouse_ZAxis">
-			<Modifier Device="Keyboard" Key="Key_RightControl" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Secondary>
 	</CyclePreviousSubsystem>
 	<TargetNextRouteSystem>
@@ -478,6 +478,10 @@
 		<Primary Device="Keyboard" Key="Key_Slash" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</NightVisionToggle>
+	<TriggerColonisationModule>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</TriggerColonisationModule>
 	<UIFocus>
 		<Primary Device="Keyboard" Key="Key_LeftShift" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -1803,4 +1807,115 @@
 		<Primary Device="Keyboard" Key="Key_Numpad_7" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidEmoteSlot8>
+	<PlaceSettlement>
+		<Primary Device="Keyboard" Key="Key_T" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</PlaceSettlement>
+	<ChangeConstructionOption>
+		<Primary Device="Keyboard" Key="Key_J" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ChangeConstructionOption>
+	<RotateSettlement>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</RotateSettlement>
+	<RotateSettlementLeft>
+		<Primary Device="Keyboard" Key="Key_Q" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</RotateSettlementLeft>
+	<RotateSettlementRight>
+		<Primary Device="Keyboard" Key="Key_E" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</RotateSettlementRight>
+	<ExitSettlementPlacementCamera>
+		<Primary Device="Keyboard" Key="Key_Backspace" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExitSettlementPlacementCamera>
+	<MovePlacementCamY>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</MovePlacementCamY>
+	<MovePlacementCamForward>
+		<Primary Device="Keyboard" Key="Key_W" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</MovePlacementCamForward>
+	<MovePlacementCamBackwards>
+		<Primary Device="Keyboard" Key="Key_S" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</MovePlacementCamBackwards>
+	<MovePlacementCamX>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</MovePlacementCamX>
+	<MovePlacementCamRight>
+		<Primary Device="Keyboard" Key="Key_D" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</MovePlacementCamRight>
+	<MovePlacementCamLeft>
+		<Primary Device="Keyboard" Key="Key_A" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</MovePlacementCamLeft>
+	<MovePlacementCamZ>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</MovePlacementCamZ>
+	<MovePlacementCamUp>
+		<Primary Device="Keyboard" Key="Key_R" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</MovePlacementCamUp>
+	<MovePlacementCamDown>
+		<Primary Device="Keyboard" Key="Key_F" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</MovePlacementCamDown>
+	<MovePlacementCamUpAxis>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</MovePlacementCamUpAxis>
+	<MovePlacementCamDownAxis>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</MovePlacementCamDownAxis>
+	<PitchPlacementCamera>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="1" />
+		<Deadzone Value="0.00000000" />
+	</PitchPlacementCamera>
+	<PitchPlacementCameraUp>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</PitchPlacementCameraUp>
+	<PitchPlacementCameraDown>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</PitchPlacementCameraDown>
+	<YawPlacementCamera>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</YawPlacementCamera>
+	<YawPlacementCameraRight>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</YawPlacementCameraRight>
+	<YawPlacementCameraLeft>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</YawPlacementCameraLeft>
+	<PlacementCamSpeedInc>
+		<Primary Device="Keyboard" Key="Key_Equals" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</PlacementCamSpeedInc>
+	<PlacementCamSpeedDec>
+		<Primary Device="Keyboard" Key="Key_Minus" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</PlacementCamSpeedDec>
+	<PlacementCamMouseSensitivity Value="5.00000000" />
+	<PlacementCamMouseXDecay Value="1" />
+	<PlacementCamMouseYDecay Value="1" />
 </Root>
