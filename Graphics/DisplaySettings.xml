@@ -9,6 +9,6 @@
 	<Monitor>0</Monitor>
 	<DX11_RefreshRateNumerator>60</DX11_RefreshRateNumerator>
 	<DX11_RefreshRateDenominator>1</DX11_RefreshRateDenominator>
-	<LimitFrameRate>false</LimitFrameRate>
-	<MaxFramesPerSecond>30</MaxFramesPerSecond>
+	<LimitFrameRate>true</LimitFrameRate>
+	<MaxFramesPerSecond>60</MaxFramesPerSecond>
 </DisplayConfig>

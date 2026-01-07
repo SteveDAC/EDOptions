@@ -10,14 +10,14 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</MouseReset>
 	<MouseSensitivity Value="0.60957545" />
-	<MouseDecayRate Value="4.00000000" />
-	<MouseDeadzone Value="0.12137500" />
+	<MouseDecayRate Value="10.00000000" />
+	<MouseDeadzone Value="0.09507500" />
 	<MouseLinearity Value="1.00000000" />
 	<MouseGUI Value="1" />
 	<BlockMouseDecay>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_B" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="0" />
+		<ToggleOn Value="1" />
 	</BlockMouseDecay>
 	<YawAxisRaw>
 		<Binding Device="{NoDevice}" Key="" />
