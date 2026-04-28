@@ -571,27 +571,27 @@
 	</ExplorationFSSEnter>
 	<UI_Up>
 		<Primary Device="Keyboard" Key="Key_W" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="GamePad_DPadUp" />
+		<Secondary Device="28DE11FF" Key="GamePad_DPadUp" />
 	</UI_Up>
 	<UI_Down>
 		<Primary Device="Keyboard" Key="Key_S" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="GamePad_DPadDown" />
+		<Secondary Device="28DE11FF" Key="GamePad_DPadDown" />
 	</UI_Down>
 	<UI_Left>
 		<Primary Device="Keyboard" Key="Key_A" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="GamePad_DPadLeft" />
+		<Secondary Device="28DE11FF" Key="GamePad_DPadLeft" />
 	</UI_Left>
 	<UI_Right>
 		<Primary Device="Keyboard" Key="Key_D" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="GamePad_DPadRight" />
+		<Secondary Device="28DE11FF" Key="GamePad_DPadRight" />
 	</UI_Right>
 	<UI_Select>
 		<Primary Device="Keyboard" Key="Key_Space" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="GamePad_FaceDown" />
+		<Secondary Device="28DE11FF" Key="GamePad_FaceDown" />
 	</UI_Select>
 	<UI_Back>
 		<Primary Device="Keyboard" Key="Key_Backspace" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="GamePad_FaceRight" />
+		<Secondary Device="28DE11FF" Key="GamePad_FaceRight" />
 	</UI_Back>
 	<UI_Toggle>
 		<Primary Device="Keyboard" Key="Key_Equals" />
@@ -599,22 +599,22 @@
 	</UI_Toggle>
 	<CycleNextPanel>
 		<Primary Device="Keyboard" Key="Key_E" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="GamePad_RBumper" />
+		<Secondary Device="28DE11FF" Key="GamePad_RBumper" />
 	</CycleNextPanel>
 	<CyclePreviousPanel>
 		<Primary Device="Keyboard" Key="Key_Q" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="GamePad_LBumper" />
+		<Secondary Device="28DE11FF" Key="GamePad_LBumper" />
 	</CyclePreviousPanel>
 	<CycleNextPage>
 		<Primary Device="Keyboard" Key="Key_C" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="GamePad_DPadRight">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="GamePad_FaceDown" />
+		<Secondary Device="28DE11FF" Key="GamePad_DPadRight">
+			<Modifier Device="28DE11FF" Key="GamePad_FaceDown" />
 		</Secondary>
 	</CycleNextPage>
 	<CyclePreviousPage>
 		<Primary Device="Keyboard" Key="Key_Z" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="GamePad_DPadLeft">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="GamePad_FaceDown" />
+		<Secondary Device="28DE11FF" Key="GamePad_DPadLeft">
+			<Modifier Device="28DE11FF" Key="GamePad_FaceDown" />
 		</Secondary>
 	</CyclePreviousPage>
 	<MouseHeadlook Value="1" />
@@ -1756,12 +1756,12 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</StoreEnableRotation>
 	<StorePitchCamera>
-		<Binding Device="ThrustMasterTFlightHOTASX" Key="GamePad_RStickX" />
+		<Binding Device="28DE11FF" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</StorePitchCamera>
 	<StoreYawCamera>
-		<Binding Device="ThrustMasterTFlightHOTASX" Key="GamePad_RStickY" />
+		<Binding Device="28DE11FF" Key="GamePad_RStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</StoreYawCamera>
