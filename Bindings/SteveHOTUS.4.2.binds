@@ -43,7 +43,7 @@
 	<RollAxisRaw>
 		<Binding Device="ThrustMasterTFlightHOTASX" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.07562500" />
 	</RollAxisRaw>
 	<RollLeftButton>
 		<Primary Device="Keyboard" Key="Key_Q" />
@@ -86,7 +86,7 @@
 	</VerticalThrustRaw>
 	<UpThrustButton>
 		<Primary Device="Keyboard" Key="Key_W" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Space" />
 	</UpThrustButton>
 	<DownThrustButton>
 		<Primary Device="Keyboard" Key="Key_S" />
@@ -263,11 +263,13 @@
 		<Deadzone Value="0.00000000" />
 	</AheadThrust_Landing>
 	<ForwardThrustButton_Landing>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_5">
+			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_9" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</ForwardThrustButton_Landing>
 	<BackwardThrustButton_Landing>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_5" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>

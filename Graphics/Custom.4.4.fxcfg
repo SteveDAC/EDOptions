@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Root PresetName="Custom" MajorVersion="4" MinorVersion="3">
+<Root PresetName="Custom" MajorVersion="4" MinorVersion="4">
 	<BlurEnabled>false</BlurEnabled>
 	<TerrainCheckerboardRenderingEnabled>false</TerrainCheckerboardRenderingEnabled>
 	<AOQuality>0</AOQuality>
